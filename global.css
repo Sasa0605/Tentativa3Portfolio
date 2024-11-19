@@ -1,0 +1,216 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    background-color: #f4f4f9;
+    margin: 0;
+}
+
+.info-topo {
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    font-weight: bold;
+    background-color: #ffffff;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.curriculo {
+    width: 80%;
+    max-width: 800px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    margin-top: 80px;
+}
+
+.conteudo {
+    text-align: left;
+    color: #333;
+}
+
+.foto-principal {
+    margin-left: -25%;
+    margin-top: 9%;
+    width: 300px;
+    height: 410px;
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.foto-principal img {
+    width: 180%;
+    height: 140%;
+    object-fit: cover;
+    position: relative; 
+    z-index: 2;
+}
+
+.nome {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+    margin-right: 50%;
+    margin-left: 5%;
+}
+
+.descricao {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: justify;
+    margin-right: 50%;
+    margin-left: 5%;
+}
+
+.botao {
+    display: inline-block;
+    background-color: #fe7d6a;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+    margin-left: 15%;
+}
+
+.botao:hover {
+    background-color: #ff5e4b;
+}
+
+.secao1 {
+    font-size: 40px;
+    margin-top: 200px;
+    color: black;
+    margin: 100px 0;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #fe7d6a;
+}
+
+.secao-container {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.secao2 {
+    flex: 1;
+    font-size: 20px;
+    color: #fe7d6a;
+    margin-right: 20px;
+    text-align: justify;
+    background-color: #ffe8e4;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.secao3 {
+    flex: 1;
+    font-size: 20px;
+    color: #ffe8e4;
+    margin-right: 20px;
+    text-align: justify;
+    background-color: #fe7d6a;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.secao4 {
+    flex: 1;
+    font-size: 20px;
+    color: #fe7d6a;
+    margin-right: 20px;
+    text-align: justify;
+    background-color: #ffe8e4;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.foto1 img {
+    border: 2px solid #1d3557;
+}
+
+.foto2 img {
+    border: 2px solid #283618;
+}
+
+.foto3 img {
+    border: 2px solid #3a0ca3;
+}
+
+.foto {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.email-button {
+    background-color: #d64933;
+}
+
+.email-button:hover {
+    background-color: #fe7d6a;
+}
+
+.github-button {
+    background-color: #fe7d6a;
+}
+
+.github-button:hover {
+    background-color: #d64933;
+}
+
+.linkedin-button {
+    background-color: #d64933;
+}
+
+.linkedin-button:hover {
+    background-color: #fe7d6a;
+}
+
+
+
+
